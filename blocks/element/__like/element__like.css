@@ -3,6 +3,7 @@ height: 19px;
 width: 22px;
 background-image: url(../../../images/like.png);
 background-size: contain;
+background-repeat: no-repeat;
 border: none;
 background-color: #fff;
 transition: 0.3s;

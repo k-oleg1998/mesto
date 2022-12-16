@@ -1,0 +1,17 @@
+.popup {
+background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+display: none;
+grid-template-columns: auto 32px 8px 430px 8px 32px auto;
+grid-template-rows: auto 32px 8px 330px 8px 32px auto;
+}
+
+@media screen and (max-width: 880px) {
+    .popup {
+        grid-template-columns: auto 263px 20px auto;
+        grid-template-rows: auto 20px 16px 322px 16px 20px auto;
+}}

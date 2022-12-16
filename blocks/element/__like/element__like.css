@@ -1,7 +1,7 @@
 .element__like {
 height: 19px;
 width: 22px;
-background-image: url(/images/like.svg);
+background-image: url(../images/like.svg);
 border: none;
 background-color: #fff;
 transition: 0.3s;
@@ -13,6 +13,6 @@ transition: 0.3s;
 }
 
 .element__like:active {
-    background-image: url(/images/like_activ.svg);
+    background-image: url(../images/like_activ.svg);
     opacity: 1;
     }

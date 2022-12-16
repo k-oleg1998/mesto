@@ -17,4 +17,4 @@ align-items: flex-start;
     .popup-container {
     grid-column: 2/4;
     grid-row: 4/5;
-}};
+}}

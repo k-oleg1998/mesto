@@ -1,7 +1,8 @@
 .opacity-button {
-    transition: 0.3s;
+  ransition: 0.3s;
 }
 
 .opacity-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }

@@ -1,7 +1,8 @@
 .opacity-link {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .opacity-link:hover {
-    opacity: 0.6;
+  opacity: 0.6;
+  cursor: pointer;
 }

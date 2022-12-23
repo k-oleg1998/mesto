@@ -1,4 +1,4 @@
-.container-form__input {
+.popup__container-input {
   width: 100%;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 880px) {
-  .container-form__input {
+  .popup__container-input {
     padding-top: 30px;
     padding-bottom: 10px;
 }}

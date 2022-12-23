@@ -1,4 +1,4 @@
-.container-form__submit {
+.popup__container-submit {
 margin: 46px auto 0;
 padding: 15px 0 14px;
 width: 100%;
@@ -14,7 +14,7 @@ border-radius: 2px;
 }
 
 @media screen and (max-width: 880px) {
-    .container-form__submit {
+    .popup__container-submit {
     width: 238px;
     height: 46px;
     margin: 43px 0 0;

@@ -3,28 +3,33 @@
   margin: 0 auto;
   padding: 40px 0 50px;
   display: grid;
-  grid-template-columns: 120px 30px 294px 18px 24px auto 150px;
+  grid-template-columns: 150px 312px auto 150px;
   grid-template-rows: 70px 50px;
   justify-items: start;
   align-items: center;
+  grid-auto-rows: auto;
 }
 
 @media screen and (max-width: 1080px) {
   .profile {
     padding: 45px 100px 50px;
-}}
+  }
+}
 
 @media screen and (max-width: 880px) {
   .profile {
     padding: 45px;
-    grid-template-columns: 120px 30px 294px 18px 24px auto;
-    grid-template-rows: 70px 50px 36px 50px;
-}}
+    grid-template-columns: 150px 312px auto;
+    grid-template-rows: 70px 50px 86px;
+    grid-auto-rows: 50px;
+  }
+}
 
 @media screen and (max-width: 606px) {
   .profile {
     padding: 41px 19px 37px;
-    grid-template-columns: auto 18px 10px 190px 10px 18px auto;
-    grid-template-rows: 120px 26px 26px 14px 14px 36px 50px;
+    grid-template-rows: 146px 26px 28px 86px;
+    grid-template-columns: 1fr;
     justify-items: center;
-}}
+  }
+}

@@ -9,11 +9,11 @@
   flex-wrap: nowrap;
   align-content: flex-start;
   position: relative;
-
 }
 
 @media screen and (max-width: 880px) {
   .popup__container {
     width: 282px;
     min-height: 322px;
-}}
+  }
+}

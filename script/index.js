@@ -6,7 +6,6 @@ let jobInfo = document.querySelector('.profile__job')
 let formElement =  document.querySelector('.popup__container-form')
 let nameInput = popup.querySelector('.popup__container-input_profile_name')
 let jobInput = popup.querySelector('.popup__container-input_profile_job')
-const submit = popup.querySelector('.popup__container-submit')
 
 function popupOpen() {
     popup.classList.add('popup_open')
@@ -20,10 +19,6 @@ function popupClose() {
 
 function handleFormSubmit (evt) {
     evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
-
-    console.dir(nameInput.value)
-    console.dir(jobInput.value)
-
     nameInfo.textContent = nameInput.value
     jobInfo.textContent = jobInput.value
     popupClose();

@@ -6,7 +6,7 @@
   line-height: 1,14;
   color: #FFF;
   grid-row: 1/2;
-  grid-column: 3/4;
+  grid-column: 2/3;
   max-width: 300px;
   align-self: flex-end;
   text-overflow: ellipsis;
@@ -16,10 +16,11 @@
 
 @media screen and (max-width: 606px) {
   .profile__name {
-    max-width: 240px;
+    max-width: 190px;
     font-size: 27px;
     line-height: 1,22;
-    grid-row: 3/4;
-    grid-column: 4/5;
+    grid-row: 2/3;
+    grid-column: 1/2;
     align-self: baseline;
-}}
+  }
+}

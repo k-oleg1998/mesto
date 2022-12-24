@@ -7,7 +7,7 @@
   line-height: 1.40;
   color: #FFF;
   grid-row: 2/3;
-  grid-column: 3/4;
+  grid-column: 2/3;
   max-width: 294px;
   align-self: flex-start;
   text-overflow: ellipsis;
@@ -21,6 +21,8 @@
     line-height: 1.21;
     padding: 0;
     max-width: 240px;
-    grid-row: 5/6;
-    grid-column: 4/5;
-}}
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 14px;
+  }
+}

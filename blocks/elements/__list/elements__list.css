@@ -13,10 +13,12 @@
     grid-template-columns: repeat(2, auto);
     justify-content: space-around;
     padding: 0 45px;
-}}
+  }
+}
 
 @media screen and (max-width: 606px) {
   .elements__list {
     grid-template-columns: 282px;
     padding: 0 19px;
-}}
+  }
+}
